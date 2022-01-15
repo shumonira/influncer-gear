@@ -14,14 +14,99 @@ body{
 }
 
 /* navbar */
-
+.container{
+  width: 80%;
+  }
 .navbar{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding:10px 50px ;
 }
 
 .brand-title{
   font-size: 24px;
   font-weight: bold;
 }
+
+.menu-items ul{
+  display: flex;
+  
+}
+
+.menu-items li{
+  list-style: none;
+}
+.menu-items li a{
+  padding: 1em;
+  text-decoration: none;
+  color:black;
+}
+
+/* hero section  */
+.hero-title{
+  display: flex;
+}
+
+.hero h1{
+  font-size: 52px; 
+}
+
+.top-left, 
+.top-right{
+  width:600px;
+  margin-right: 200px;
+}
+.top-left p{
+  margin-bottom: 30px;
+}
+.btn{
+  padding: 10px 30px;
+  text-decoration: none;
+  background-color:#E02C6D;
+  color: #ffffff;
+  border-radius: 30px;
+  }
+
+  .fas{
+    padding-left:10px;
+    }
+
+  .top-right img{
+    width: 440px;
+    height: 414px;
+  }
+
+  /* brand-logo  */
+
+  .brand-logo hr{
+    width:50%;
+  }
+
+  .brand-logo-list{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .logo-box{
+    margin: 20px;
+  }
+
+  /* collection */
+.item-view img{
+  width: 300px;
+  height: 256px;
+}
+
+.fa-star{
+  font-size: 16px;
+}
+  .fa-star.filled{
+    color: #FFA500;
+  }
+
+  .fa-star-half-alt.half-filled{
+    color: #FFA500;
+  }
